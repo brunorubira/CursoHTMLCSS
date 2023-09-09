@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="get"></form>
+
+    <p>
+      <label for="iest">Estado: </label>
+      <select name="Estado" id="iest">
+        <optgroup label="SUL/SUD">
+          <option value="SP">SP</option>
+          <option value="PR">PR</option>
+        </optgroup>
+      </select>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpar" />
+    </p>
+  </body>
+</html>

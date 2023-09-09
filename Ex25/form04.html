@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+      <fieldset>
+        <legend>Cor</legend>
+        <label for="icor">Cor: </label>
+        <input type="color" name="cor" id="icor" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Nivel</legend>
+        <label for="">Nivel</label>
+        <input type="range" name="Nivel" id="inivel" />
+      </fieldset>
+      <fieldset>
+        <legend>Img</legend>
+        <label for="iimg"></label>
+        <input type="file" name="Img" id="iimg" />
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>
